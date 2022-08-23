@@ -41,10 +41,9 @@ const CoinInfo = ({coin}) => {
     }
    
     useEffect(()=>{
-       return ()=>{
         fetchHistoricalData();
         // eslint-disable-next-line react-hooks/exhaustive-deps
-       }
+       
     },[Currency,days]);
 
     
